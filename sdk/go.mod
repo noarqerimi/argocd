@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-xyz/sdk
+module github.com/noarqerimi/argocd/tree/main
 
 go 1.17
 

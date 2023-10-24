@@ -1,12 +1,5 @@
-module https://github.com/noarqerimi/pulumi-argocd/tree/main/provider
+module github.com/noarqerimi/argocd/tree/main/provider
 
 go 1.18
 
-replace (
-	github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraform-plugin-sdk/v2 upstream-v2.21.0
-)
-
-require (
-	github.com/pulumi/pulumi-terraform-bridge/v3 v3.47.2
-	github.com/pulumi/pulumi/sdk/v3 v3.67.1
-)
+replace github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraform-plugin-sdk/v2 v2.0.0-20220824175045-450992f2f5b9

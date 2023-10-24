@@ -20,8 +20,8 @@ import (
 	_ "embed"
 
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
-	pulumi-argocd "github.com/noarqerimi/pulumi-argocd/tree/main/provider"
-	"github.com/noarqerimi/pulumi-argocd/tree/main/provider/pkg/version"
+	argocd "github.com/noarqerimi/argocd/tree/main/provider"
+	"github.com/noarqerimi/argocd/tree/main/provider/pkg/version"
 )
 
 //go:embed schema-embed.json
@@ -29,5 +29,5 @@ var pulumiSchema []byte
 
 func main() {
 	// Modify the path to point to the new provider
-	tfbridge.Main("pulumi-argocd", version.Version, pulumi-argocd.Provider(), pulumiSchema)
+	tfbridge.Main("argocd", version.Version, argocd.Provider(), pulumiSchema)
 }
