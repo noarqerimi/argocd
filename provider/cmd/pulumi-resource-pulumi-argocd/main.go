@@ -20,7 +20,7 @@ import (
 	_ "embed"
 
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
-	pulumi-argocd "github.com/noarqerimi/tree/main/pulumi-argocd/provider"
+	pulumi-argocd "github.com/noarqerimi/pulumi-argocd/tree/main/provider"
 	"github.com/noarqerimi/pulumi-argocd/tree/main/provider/pkg/version"
 )
 
