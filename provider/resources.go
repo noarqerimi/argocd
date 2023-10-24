@@ -8,7 +8,7 @@ import (
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge/tokens"
 	shim "github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfshim"
 	shimv2 "github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfshim/sdk-v2"
-	"github.com/noarqerimi/pulumi-argocd/provider/pkg/version"
+	"github.com/noarqerimi/pulumi-argocd//tree/main/provider/pkg/version"
 	"github.com/pulumi/pulumi/sdk/v3/go/common/resource"
 	"github.com/oboukili/terraform-provider-argocd/tree/master/argocd"
 )

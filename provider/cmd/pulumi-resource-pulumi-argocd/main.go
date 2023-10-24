@@ -20,8 +20,8 @@ import (
 	_ "embed"
 
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
-	pulumi-argocd "github.com/noarqerimi/pulumi-argocd/provider"
-	"github.com/noarqerimi/pulumi-argocd/provider/pkg/version"
+	pulumi-argocd "github.com/noarqerimi/tree/main/pulumi-argocd/provider"
+	"github.com/noarqerimi/pulumi-argocd/tree/main/provider/pkg/version"
 )
 
 //go:embed schema-embed.json

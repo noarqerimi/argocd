@@ -16,8 +16,8 @@ package main
 
 import (
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfgen"
-	pulumi-argocd "github.com/noarqerimi/pulumi-argocd/provider"
-	"github.com/noarqerimi/pulumi-argocd/provider/pkg/version"
+	pulumi-argocd "github.com/noarqerimi/pulumi-argocd/tree/main/provider"
+	"github.com/noarqerimi/pulumi-argocd/tree/main/provider/pkg/version"
 )
 
 func main() {
