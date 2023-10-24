@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-xyz/provider
+module https://github.com/noarqerimi/pulumi-argocd/provider
 
 go 1.18
 
